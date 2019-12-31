@@ -1,0 +1,80 @@
+;it adds two initilized values
+
+;mov bh,5
+;mov bl,3
+;
+;add bh,bl   ;bh=bh+bl
+;add bh,30h  ;bh=bh+30h to make the addition result into character or symbol
+;
+;mov ah,2
+;mov dl,bh
+;int 21h      
+
+;it adds two user given input
+  
+;mov ah,1
+;int 21h
+;mov bh,al ;bh = 1st input
+;int 21h
+;mov ch,al ;ch = 2nd input
+;
+;add ch,bh  ;ch=ch+bh
+;sub ch,30h 
+;
+;mov ah,2
+;mov dl,ch
+;int 21h
+
+;it adds two values where one is initialized and another is user given        
+        
+;mov ah,1
+;int 21h ;it takes a symbol as number 
+;mov bh,al
+;mov ch,'3' ;decimal value which is 3h in Hexa    
+;
+;add bh,ch
+;sub bh,30h
+;
+;mov ah,2
+;mov dl,bh
+;int 21h
+ 
+;exchange 2 
+mov cl,34h
+mov bh,33h
+xchg cl,bh
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
